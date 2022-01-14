@@ -23,7 +23,7 @@ lookaway_quotes = [
 	"Computer vision syndrome (CVS) is strain on the eyes that happens when you use a computer or digital device for prolonged periods of time.",
 	"Eye strain from hours of screen time can result in eye irritation, dryness, fatigue or blurred vision, and such problems are increasingly common, according to a new report.",
 	"Stepping away from technology not only gives your brain a break but also gives you the added bonus of perspective.",
-	"By taking a mini digital detox from tech on a daily basis, you will not only feel recharged every day, but you’ll see a boost in your productivity levels at work!"
+	"By taking a mini digital detox from tech on a daily basis, you will not only feel recharged every day, but you'll see a boost in your productivity levels at work!"
 ]
 
 count = 1
