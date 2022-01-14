@@ -1,6 +1,9 @@
 import time
 from plyer import notification
 import random
+import os
+
+dirname = os.path.dirname(__file__)
 
 water_quotes = [
 	"In general, you should try to drink between half an ounce and an ounce of water for each pound you weigh, every day.",
@@ -29,7 +32,7 @@ while True:
 	notification.notify(
 		title="Water Break!!",
 		message=random.choice(water_quotes),
-		app_icon="C:/Users/amit_/McLaren/Proposals/Kona/icon.ico",
+		app_icon=os.path.join(dirname, "icon.ico"),
 		timeout=12
 	)
 
@@ -38,7 +41,7 @@ while True:
 		notification.notify(
 			title="Screen Break!!",
 			message=random.choice(lookaway_quotes),
-			app_icon="C:/Users/amit_/McLaren/Proposals/Kona/screen.ico",
+			app_icon=os.path.join(dirname, "screen.ico"),
 			timeout=12
 		)
 	if count == 10:
