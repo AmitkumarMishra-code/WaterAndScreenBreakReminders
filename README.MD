@@ -13,7 +13,7 @@ A simple python program to remind user to take a water break every 15 minutes, a
 - The second command is **pythonw reminder.py** . With this command, the program will keep running in the background till it is explicitly terminated from the task manager or till system shutdown. (The program will shiw up as **Python** in the task manager.)
 
 
-##Screenshots
+## Screenshots
 **Water-break Reminder**
 <hr>
 <img src = "https://i.ibb.co/VpLBhw9/screely-1642132692729.png"  />
